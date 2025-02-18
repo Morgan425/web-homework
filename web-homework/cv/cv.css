@@ -1,0 +1,32 @@
+
+div>span{
+    font-size: 20px;
+    color: rgb(50, 98, 13);
+}
+
+.date{
+    font-size: 12px;
+    color: grey;
+}
+div {
+    display: grid;
+    grid-template-columns:
+    1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title title"
+    "tel  mail  LI  github"
+    "edu   edu   lang  lang";
+}
+
+#edu{
+    grid-area: edu;
+}
+
+#lang{
+    grid-area: lang;
+}
+
+#head{
+    grid-area: info;
+    color: blue;
+}
