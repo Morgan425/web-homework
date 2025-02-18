@@ -1,6 +1,15 @@
 
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
 h1 {
     font-family: 'Cooper';
+    text-align: center;
 }
 
 body{
@@ -8,16 +17,16 @@ body{
 }
 
 .date{
-    font-size: 12px;
+    font-size: 10px;
     color: grey;
 }
 #container {
     display: grid;
     grid-template-columns:
-    1fr 1fr 1fr 1fr;
+    1fr 15% 25% 20% 20% 1fr;
     grid-template-areas:
-    "tel   mail   LI    github"
-    "edu   edu   lang  lang";
+    ".   tel   mail   LI    github ."
+    "edu edu   edu    lang  lang   lang";
 }
 
 .info{
@@ -25,28 +34,28 @@ body{
     color: blue;
 }
 
-#edu{
-    grid-area: edu;
+.char{
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
 }
 
-#lang{
-    grid-area: lang;
-}
+#edu{grid-area: edu;}
 
-#tel{
-    grid-area: tel;
-}
+#lang{grid-area: lang;}
 
-#mail{
-    grid-area: mail;
-}
+#tel{grid-area: tel;}
+
+#mail{grid-area: mail;}
 
 #github{
     grid-area: github;
+    color: black;
 }
 
 #linkedin{
     grid-area: LI;
+    color: rgb(53, 75, 175);
 }
 
 div>span{
