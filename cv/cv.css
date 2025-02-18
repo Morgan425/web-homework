@@ -1,0 +1,55 @@
+
+h1 {
+    font-family: 'Cooper';
+}
+
+body{
+    font-family: "Comic sans MS"
+}
+
+.date{
+    font-size: 12px;
+    color: grey;
+}
+#container {
+    display: grid;
+    grid-template-columns:
+    1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "tel   mail   LI    github"
+    "edu   edu   lang  lang";
+}
+
+.info{
+    padding-bottom: 10%;
+    color: blue;
+}
+
+#edu{
+    grid-area: edu;
+}
+
+#lang{
+    grid-area: lang;
+}
+
+#tel{
+    grid-area: tel;
+}
+
+#mail{
+    grid-area: mail;
+}
+
+#github{
+    grid-area: github;
+}
+
+#linkedin{
+    grid-area: LI;
+}
+
+div>span{
+    font-size: 20px;
+    color: rgb(50, 98, 13);
+}
