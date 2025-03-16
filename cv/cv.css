@@ -7,6 +7,11 @@ a:visited {
     color: inherit;
 }
 
+a:hover{
+    font-size: larger;
+    text-align: center;
+}
+
 h1 {
     font-family: 'Cooper';
     text-align: center;
