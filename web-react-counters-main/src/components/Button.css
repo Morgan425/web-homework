@@ -1,0 +1,14 @@
+.buttons {
+    color: #black;
+    border-radius: 6px;
+    padding: 0.4em;
+    font-size: 100px;
+}
+
+.increase {
+    background-color: rgb(186, 216, 170);
+}
+
+.decrease {
+    background-color: rgb(212, 145, 145);
+}
